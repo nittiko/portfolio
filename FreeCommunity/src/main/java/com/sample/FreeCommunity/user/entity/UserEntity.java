@@ -2,12 +2,11 @@ package com.sample.FreeCommunity.user.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sample.FreeCommunity.board.boardParents.BoardEntityParent;
-import com.sample.FreeCommunity.user.DTO.SignInFormDTO;
+import com.sample.FreeCommunity.user.DTO.SignUpFormDTO;
 import com.sample.FreeCommunity.user.constant.Role;
 import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.security.crypto.argon2.Argon2PasswordEncoder;
-import org.springframework.security.crypto.password.PasswordEncoder;
 
 @Entity
 @Data
@@ -29,12 +28,12 @@ public class UserEntity extends BoardEntityParent {
     @Enumerated(EnumType.STRING)
     private Role role;
 
-    public static UserEntity SignInUser(SignInFormDTO signInFormDTO,
+    public static UserEntity SignUpUser(SignUpFormDTO signUpFormDTO,
                                         Argon2PasswordEncoder passwordEncoder){
         UserEntity user = new UserEntity();
-        user.setName(signInFormDTO.getName());
-        user.setEmail(signInFormDTO.getEmail());
-        String password = passwordEncoder.encode(signInFormDTO.getPassword());
+        user.setName(signUpFormDTO.getName());
+        user.setEmail(signUpFormDTO.getEmail());
+        String password = passwordEncoder.encode(signUpFormDTO.getPassword());
         user.setPassword(password);
         user.setRole(Role.USER);
         return user;

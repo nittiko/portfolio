@@ -1,0 +1,132 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #d1e9ff;
+  font-size: 18px;
+}
+
+.fieldError {
+  color: #bd2130;
+  margin-left: 195px;
+}
+
+.wrapper {
+  background-color: #ffffff; /* 예시 배경색 */
+  padding: 30px;
+  border-radius: 10px; /* 예시 둥근 모서리 */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 예시 그림자 효과 */
+  width: 800px;
+  height: auto;
+}
+
+form {
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+  margin-top: -15px;
+  margin-bottom: 50px;
+}
+
+.container,
+.fieldError {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.left {
+  width: 200px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+.center {
+  width: 500px;
+  text-align: center;
+}
+
+.right {
+  width: 200px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+input {
+  font-size: 20px;
+  line-height: 1em;
+}
+
+#name,
+#password,
+#passwordCheck {
+  width: 400px;
+}
+
+#emailInput {
+  width: 220px;
+}
+
+select {
+  width: 150px;
+  height: 29px;
+  line-height: 1em;
+  font-size: 20px;
+}
+
+.emailCheck {
+  display: none;
+  align-self: center;
+  width: 500px;
+  margin: 20px 0 20px 195px;
+  height: 30px;
+}
+
+#confirmToken {
+  width: 220px;
+  height: 24px;
+  font-size: 16px;
+  line-height: 1em;
+  padding: 0px;
+}
+
+#confirmBtn {
+  width: 150px;
+  height: 28px;
+  font-size: 16px;
+  line-height: 1em;
+}
+
+button {
+  background-color: rgb(83, 182, 235);
+  padding: 5px 10px;
+  border: 2px solid rgb(8, 101, 151);
+  border-radius: 5px;
+  transition: border 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 30px;
+  font-weight: bold;
+  color: rgb(9, 31, 77);
+}
+
+.button {
+  width: 100%;
+  font-size: 27px;
+  padding: 10px 20px;
+  margin-left: 0px;
+  margin-top: 50px;
+}
+
+button:hover {
+}
