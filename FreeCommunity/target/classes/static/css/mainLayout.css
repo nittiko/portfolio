@@ -1,0 +1,221 @@
+@charset "utf-8";
+
+/* setting start */
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+/* setting end */
+
+.header_container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 99.7%;
+}
+
+/* header start */
+
+.logo {
+  border-style: Solid;
+  border-color: #000000;
+  border-color: rgba(0, 0, 0, 1);
+  position: absolute;
+  left: 360px;
+  top: 70px;
+  width: 220px;
+  height: 130px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.log_in {
+  border-style: Solid;
+  border-color: #0078b9;
+  border-color: rgba(0, 120, 185, 1);
+  position: absolute;
+  left: 1240px;
+  top: 175px;
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: #0f4b6b;
+  background-color: rgba(198, 255, 255, 0.2);
+}
+.regi {
+  border-style: Solid;
+  border-color: #0078b9;
+  border-color: rgba(0, 120, 185, 1);
+  position: absolute;
+  left: 1380px;
+  top: 175px;
+  width: 120px;
+  height: 50px;
+  border-radius: 8px;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: #0f4b6b;
+}
+
+.header_line {
+  border-style: Solid;
+  border-color: #0078b9;
+  border-color: rgba(0, 120, 185, 1);
+  position: absolute;
+  left: 0px;
+  top: 259px;
+  width: 100%;
+  height: 31px;
+  background-color: #0078b9;
+  background-image: linear-gradient(
+    to right,
+    #0078b9 40%,
+    rgba(0, 98, 169, 0.9) 55%,
+    rgba(128, 165, 246, 0.5) 80%,
+    #0078b9 87%,
+    #0062a9 100%
+  );
+}
+
+/* header end */
+
+/* ad/main/side container */
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.ad {
+  position: relative;
+  border-style: Solid;
+  border-color: #0078b9;
+  top: 350px;
+  width: 320px;
+  height: 600px;
+  border-radius: 8px;
+  border-width: 1px;
+  margin-left: 35px;
+}
+
+.side {
+  margin-right: 35px;
+  border-style: Solid;
+  border-color: rgb(55, 58, 59);
+  position: relative;
+  top: 350px;
+  width: 360px;
+  height: 290px;
+  box-shadow: 8px 11px 5px rgba(74, 0, 89, 0.13);
+  border-radius: 8px;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 0.8);
+  background-image: linear-gradient(
+    to top left,
+    rgba(245, 245, 245, 0.7) 3%,
+    rgba(150, 150, 150, 0.4) 25%,
+    rgba(210, 210, 210, 0.9) 40%,
+    rgba(160, 160, 160, 0.7) 65%,
+    rgba(255, 255, 255, 0.2),
+    rgba(180, 180, 180, 0.7) 90%,
+    #c0c0c0 100%
+  );
+}
+
+/* side start */
+
+.side > * {
+  background-color: white;
+}
+.alarm2 {
+  border-style: Solid;
+  border-color: rgb(55, 58, 59);
+  position: absolute;
+  left: 20px;
+  top: 239px;
+  width: 320px;
+  height: 36px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.alarm1 {
+  border-style: Solid;
+  border-color: rgb(55, 58, 59);
+  position: absolute;
+  left: 20px;
+  top: 193px;
+  width: 320px;
+  height: 36px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.alarm_label {
+  border-style: Solid;
+  border-color: rgb(55, 58, 59);
+  position: absolute;
+  left: 30px;
+  top: 163px;
+  width: 72px;
+  height: 20px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.welcome {
+  border-style: Solid;
+  border-color: rgb(55, 58, 59);
+  position: absolute;
+  left: 200px;
+  top: 20px;
+  width: 140px;
+  height: 86px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+.regi_count {
+  border-style: Solid;
+  border-color: rgb(55, 58, 59);
+  position: absolute;
+  left: 200px;
+  top: 116px;
+  width: 140px;
+  height: 27px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+.profile {
+  border-style: Solid;
+  border-color: rgb(55, 58, 59);
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 162px;
+  height: 123px;
+  border-radius: 8px;
+  border-width: 1px;
+}
+
+/* side end */
+
+/* footer start */
+.footer {
+  background-color: rgb(9, 25, 68);
+  color: aliceblue;
+  width: 100%;
+  height: 300px;
+}
+/* footer end */

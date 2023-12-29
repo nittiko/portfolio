@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<div class="paging_container" th:fragment="paging">
+    <div id="page_div">
+        <p id="page">
+        <a href="#">◀ </a><a href="#">1</a><a href="#">2</a
+        ><a href="#">3</a><a href="#">4</a><a href="#">5</a
+        ><a href="#"> ▶</a>
+        </p>
+    </div>
+    </div>
+    <div id="page_div2">
+    <div id="search_div">
+        <p id="searchp">
+        <input id="search" type="text" />
+        <input id="search_button" type="button" value="검색" />
+        </p>
+    </div>
+    <button
+            id="write"
+            onclick="window.location.href = 'team.write.html'"
+    >
+        게시하기
+    </button>
+    </div>
+</div>
+</html>

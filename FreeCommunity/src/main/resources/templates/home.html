@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html
+  xmlns:th="http://www.thymeleaf.org"
+  xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+  layout:decorate="~{layouts/mainLayout}"
+>
+  <th:block layout:fragment="css">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/home.css}" />
+  </th:block>
+  <main class="main" layout:fragment="content">
+    <h1 class="main_title">취미 게시판</h1>
+    <button type="button" onclick="location.href='/bookReading/'" class="community1">독서</button>
+    <button type="button" onclick="location.href='/gamePlaying/'" class="community2">게임</button>
+    <button type="button" onclick="location.href='/politicTalk/'" class="community3">정치</button>
+    <button type="button" onclick="location.href='/artPainting/'" class="community4">그림</button>
+  </main>
+</html>
